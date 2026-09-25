@@ -141,6 +141,8 @@ Canlı izleme ve kayıtlar gerçek bir kamera uygulaması gibi çalışıyor.
 - Gün seçimi ve anlık tarih/saat göstergesi
 - Görüntüden ekran görüntüsü alıp paylaşma
 
+> Kamera izleme artık yetkiye bağlıdır. Göremiyorsanız yöneticinizden **Mağaza Kamera İzleme** yetkisini isteyin.
+
 ## 2026-09-25 | Yenilik | Mağaza cirosu ve personel raporları
 
 Geçmiş ayların verileri artık görüntülenebiliyor.
