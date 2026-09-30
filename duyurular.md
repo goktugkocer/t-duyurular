@@ -14,6 +14,39 @@ Nasıl yazılır:
 - En yeni tarih en üstte listelenir; aynı tarihliler bu dosyadaki sırayla.
 - Yeni duyurular kullanıcıya "YENİ" etiketiyle gösterilir.
 
+## 2026-09-29 | Yenilik | Mesajlara emoji tepkisi ve emoji gönderme
+
+Mesajlara artık emoji ile tepki verebilir, mesaj yazarken emoji panelinden emoji ekleyebilirsiniz.
+
+### Emoji tepkileri
+- Mesaja **basılı tutun**; üstteki hızlı tepkilerden birini seçin (👍 ❤️ 😂 😮 😢 🙏) ya da **+** ile tüm emojileri açın
+- Tepkiler mesajın altında görünür; aynı emojiyi birden fazla kişi koyduysa sayısı yazar
+- Tepkiye dokunarak kendi tepkinizi ekleyip kaldırabilirsiniz; her mesaja bir tepki verilebilir
+
+### Bildirim ve sohbet listesi
+- Mesajınıza tepki verildiğinde bildirim gelir: *"Mesajına ❤️ bıraktı"*
+- Sohbet listesinde son mesaj yerine **son yapılan işlem** görünür; tepki verildiyse o sohbet en üste çıkar
+
+### Emoji gönderme
+- Mesaj kutusundaki **😊** simgesiyle emoji paneli açılır, seçilen emoji yazının içine eklenir
+- **⌨️** simgesiyle ya da mesaj kutusuna dokunarak klavyeye dönülür
+
+## 2026-09-29 | İyileştirme | Yönetim panelinde işlem sonrası geri dönüş
+
+Kaydet, onayla, yetki ver gibi işlemlerden sonra "Tamam"a basınca artık önceki sayfaya dönülüyor.
+
+- Kullanıcı düzenleme: profil, e-posta, şifre, hesap durumu, onay ve API anahtarı işlemleri
+- Kullanıcı yetkilerini kaydetme
+- Önceki sayfadaki liste yapılan değişiklikle güncel gelir
+
+## 2026-09-29 | Düzeltme | Kamera ve alt menü düzeltmeleri
+
+Kamera görüntüsü açılırken siyah ekran yerine yükleniyor göstergesi çıkıyor; alt menüler sanal tuşların arkasında kalmıyor.
+
+- Kamera açılırken ilk görüntü gelene kadar **Bağlanıyor…** göstergesi döner
+- Sanal (geri / ana sayfa) tuşları olan telefonlarda alttan açılan menüler artık tam görünür
+- Mesaja basılı tutunca açılan menü klavyenin altında kalmaz
+
 ## 2026-09-25 | Yenilik | Fiyatlarda eski fiyat gösterimi
 
 Peşin fiyat değiştiyse eski fiyat artık üstü çizili olarak görünüyor.
