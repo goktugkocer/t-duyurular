@@ -14,6 +14,60 @@ Nasıl yazılır:
 - En yeni tarih en üstte listelenir; aynı tarihliler bu dosyadaki sırayla.
 - Yeni duyurular kullanıcıya "YENİ" etiketiyle gösterilir.
 
+## 2026-10-01 | Yenilik | Satışa kapalı ürünler için satışa açma talebi
+
+Stok sorgularken satışa kapalı bir ürün gördüğünüzde, tek dokunuşla yetkililerden ürünün satışa açılmasını isteyebilirsiniz.
+
+### Talep göndermek
+- Barkod ile **Stok Durumu** ya da **Ürün Kodu** ile sorguladığınızda ürün satışa kapalıysa sarı bir uyarı kartı çıkar
+- **Satışa Açılmasını İste**'ye basın; onay verdiğinizde yetkililere bildirim ve sistem mesajı gider
+- Talepte adınız, mağazanız, **mağazanızdaki stok** ve **tüm mağazalardaki toplam stok** yer alır
+- Ürün için talep zaten gönderildiyse kartta **"Satışa Kapalı - Onay Bekliyor"** ve talep edenler yazar; tekrar göndermeye gerek yoktur
+
+### Onaylamak (satışa açma yetkisi olanlar)
+- **Mağaza → Satış Talepleri** ekranında bekleyen talepler listelenir; bekleyen varsa kutu **sarı çerçeveli** olur ve sayısı yazar
+- Talep kartında ürün fotoğrafı, kodu, renk/beden, tedarikçi, kampanya ve talep edenlerin stokları görünür
+- **Onayla ve Satışa Aç** → *"Emin misiniz?"* → ürün satışa açılır
+- Ürünü eskisi gibi **Mağazada Satışa Açık** anahtarıyla açmak da bekleyen talebi kapatır
+
+### Onaydan sonra
+- Talep eden kişiye bildirim ve **sarı sistem mesajı** gelir
+- Talep edenin mağazasının e-posta adresine ürün bilgileri ve stoklarıyla bilgilendirme e-postası gider
+
+## 2026-10-01 | Yenilik | WhatsApp gibi mesaj bildirimleri ve hızlı yanıt
+
+Mesaj bildirimleri artık kişiye göre gruplanıyor ve uygulamayı açmadan yanıt verebiliyorsunuz.
+
+- Aynı kişiden gelen mesajlar **tek bildirimde** alt alta görünür, başlıkta **"(N mesaj)"** yazar
+- Bildirimi aşağı çekince **Yanıtla** alanı açılır; yazdığınız mesaj doğrudan gönderilir (Android)
+- Bildirime dokununca ilgili sohbet ya da ekran açılır; giriş yapmanız gerekiyorsa **girişten sonra** o ekrana gidilir
+- Bir sohbeti açınca yalnız **o kişinin** bildirimleri temizlenir, diğerleri kalır
+
+## 2026-10-01 | İyileştirme | Sistem bildirimleri sarı, rozetler daha anlaşılır
+
+Sistem bilgilendirmeleri artık sarı renkle normal mesajlardan ayrılıyor.
+
+- **Mesajlar** simgesinde normal mesajlar **kırmızı**, sistem bildirimleri **sarı** sayıyla gösterilir; ikisi birden olabilir
+- Mesajlar listesinde **Sistem Bildirimleri** satırı her zaman sarı çerçeveli ve sarı simgelidir
+- Sohbetteki sistem mesajları sarı kutuda **"Sistem Bilgilendirmesi"** başlığıyla görünür
+
+## 2026-10-01 | İyileştirme | Kaydırma çubuğu, yukarı çık butonu ve hızlı profil resimleri
+
+Uzun sayfalarda gezinmek ve uygulamaya giriş daha rahat.
+
+- Ekrandan uzun sayfalarda kaydırırken sağda **kaydırma çubuğu** görünür
+- Aşağı inildikçe alt menünün üstünde **yukarı çık** butonu çıkar; klavye açıkken klavyenin üstüne yerleşir
+- Profil resimleri girişte önceden indirilir; yan menüde **beklemeden** görünür
+- Yeni yüklenen profil resimleri küçültülerek kaydedilir, daha hızlı açılır
+- **Keşfet**'te yeni duyurular **sarı "YENİ"** etiketi ve sarı çerçeveyle öne çıkar; **Tümünü okundu say** ile hepsini okundu yapabilirsiniz
+
+## 2026-10-01 | Düzeltme | Barkod sorgulama, varyantlar ve kayıt
+
+- Ürün kodu ile aramada sonuç yüklendikten sonra **klavye kendiliğinden açılmıyor**; yalnız alana dokununca açılır
+- Boş bir yere dokununca klavye kapanır (tüm ekranlarda)
+- **Diğer Varyantlar** paneli beklemeden açılır, yüklenirken panel üstüne panel açılmaz
+- Kayıt olurken mağaza listesinde **Merkez Ofis** seçeneği en üstte yer alır
+
 ## 2026-09-29 | Yenilik | Mesajlara emoji tepkisi ve emoji gönderme
 
 Mesajlara artık emoji ile tepki verebilir, mesaj yazarken emoji panelinden emoji ekleyebilirsiniz.
