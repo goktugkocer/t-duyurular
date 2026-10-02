@@ -14,6 +14,80 @@ Nasıl yazılır:
 - En yeni tarih en üstte listelenir; aynı tarihliler bu dosyadaki sırayla.
 - Yeni duyurular kullanıcıya "YENİ" etiketiyle gösterilir.
 
+## 2026-10-02 | Yenilik | Ürünler Arası Transfer
+
+Mağazanızın deposunda bir ürünün adedini başka bir renk/bedene ya da başka bir modele onaylı bir akışla aktarabilirsiniz; envanter onaylanınca anında güncellenir.
+
+### İki transfer tipi
+- **Kendi İçinde (Varyantlar Arası):** Aynı modelin bir renk/bedeninden başka bir renk/bedenine
+- **Modeller Arası:** Bir modelin renk/bedeninden başka bir modelin renk/bedenine
+
+### Fiş oluşturmak
+1. **Mağaza → Ürün Transferi**'ni açın ve transfer tipini seçin
+2. Ürünün barkodunu okutun ya da ürün kodunu yazın; yazdıkça eşleşen kodlar listelenir
+3. **Kaynak** renk/bedeni seçin (yalnız deponuzda envanteri olanlar seçilebilir), sonra **hedef** renk/bedeni ve **adedi** girin
+4. **Fişe Ekle**; bir fişe birden fazla ürün ekleyebilirsiniz
+- Adet hiçbir zaman deponuzdaki envanteri aşamaz
+- Her satırda kaynakta **−adet**, hedefte **+adet** kutusu görünür; adet değişince anında güncellenir
+- Adede dokunarak adedi, hedefe dokunarak hedefi (modeller arasıda modeli de) değiştirebilirsiniz
+- **Sil** önce sorar; yanlışlıkla silinmez
+- Satırdaki **Etiket Yazdır** ile yeni ürüne onaydan önce etiket basabilirsiniz
+
+### Onaya göndermek
+- **Onaya Gönder**'e basınca önizleme açılır: ne nereye kaç adet gidecek ve her renk/bedenin envanteri **kaçtan kaça** değişecek
+- *"Kabul ediyor musunuz?"* sorusunu onaylayınca fiş onaylayanlara gider ve bildirim alırlar
+- Onaya göndermeden ekrandan çıkarsanız fiş silinir; yarım fiş kalmaz
+
+### Onaylamak (transfer onay yetkisi olanlar)
+- Onaylarken de önizleme açılır; deponun **o anki** envanteri gösterilir
+- Talepten sonra ürün satıldıysa ve envanter yetmiyorsa uyarı çıkar; onaylanırsa fiş **otomatik reddedilir**
+- **Onayla** → stok anında güncellenir; **Reddet** → isterseniz neden yazabilirsiniz
+- Kimse kendi oluşturduğu fişi onaylayamaz ya da geri alamaz; onaylanan fiş başka bir yetkili tarafından **geri alınabilir**
+- Fişi oluşturana onay, red ve geri alma bildirimi ile **sarı sistem mesajı** gider
+
+> İşlemler her zaman sizin ofisinizin deposunda yapılır ve her adım kim / ne zaman bilgisiyle kayıt altına alınır.
+
+## 2026-10-02 | Yenilik | Talepler: tüm onaylar tek ekranda
+
+Satışa açma talepleri ve ürün transferi onayları artık **Mağaza → Talepler** ekranında birlikte.
+
+- Yetkinize göre **Satışa Açma** ve **Ürün Transferi** sekmeleri görünür
+- Bekleyen talep sayısı Talepler kutusunda ve sekme başlıklarında **canlı** güncellenir
+- Transfer sekmesinde **Onay Bekleyen**, **Tümü** ve **Fişlerim** filtreleri vardır
+- Bildirime ya da sohbetteki sistem mesajına dokununca ilgili sekme açılır
+
+## 2026-10-02 | Yenilik | Etiket yazdırma
+
+Ürün ekranlarından deponuzdaki etiket yazıcısına etiket basabilirsiniz (etiket yazdırma yetkisi olanlar).
+
+- **Stok Durumu** ve **Ürün Kodu Ara** ekranlarında **Etiket Yazdır** düğmesi
+- Depo stoklarında kendi deponuzun beden çiplerinde yazıcı ikonu; dokununca o renk/beden için etiket ekranı açılır
+- Önce **adet** sorulur (varsayılan 1, **Envanteri kadar yazdır** düğmesi), sonra **etiket tipi** seçilir
+- Basmadan önce etiketin önizlemesini görebilirsiniz
+
+## 2026-10-02 | İyileştirme | Sohbette profil kartı ve çevrimiçi durumu
+
+- Sohbette isme ya da fotoğrafa dokununca **profil kartı** açılır; fotoğraf tam ekran büyütülebilir
+- Profilde ve sohbet başlığında canlı **Çevrimiçi / Son görülme** bilgisi
+- Kendi profil fotoğrafınıza dokunarak büyük görebilir ve değiştirebilirsiniz
+- Uygulama arka plana alınınca çevrimiçi durumu doğru kapanır (iPhone'da sürekli çevrimiçi görünüyordu)
+
+## 2026-10-02 | İyileştirme | Daha hızlı ve daha rahat kullanım
+
+- Stok sorgusu ve ürün fotoğrafları **daha hızlı** yükleniyor
+- Tüm alt pencereler klavyenin ve alt gezinme çubuğunun üstünde açılır; tablette ortada, okunur genişlikte
+- **Yenile** düğmeleri dokununca titreşir, dönerek yenilemenin sürdüğünü gösterir; iki kez basılınca çift istek gitmez
+- Bilgilendirme pencereleri türüne göre ses çalar; iPhone sessiz moddayken de
+- Kenardan kaydırarak geri dönme her sayfada çalışır
+- Yükleme ekranı tüm sayfalarda ekranı tam kaplar
+
+## 2026-10-02 | Düzeltme | Hata düzeltmeleri ve güvenlik
+
+- Yetki seçiminde yanlış sayaç (*"28/29"*) düzeltildi
+- Ürün kodu aramasında Enter, yazılanı değil listedeki kodu açar
+- Tedarikçi iade listesi artık yalnız e-posta ile gönderilir
+- Güvenlik iyileştirmeleri
+
 ## 2026-10-01 | Yenilik | Satışa kapalı ürünler için satışa açma talebi
 
 Stok sorgularken satışa kapalı bir ürün gördüğünüzde, tek dokunuşla yetkililerden ürünün satışa açılmasını isteyebilirsiniz.
