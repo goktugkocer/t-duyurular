@@ -14,6 +14,15 @@ Nasıl yazılır:
 - En yeni tarih en üstte listelenir; aynı tarihliler bu dosyadaki sırayla.
 - Yeni duyurular kullanıcıya "YENİ" etiketiyle gösterilir.
 
+## 2026-10-02 | Düzeltme | Çevrimiçi durumu ve transfer onayı düzeltmeleri
+
+Uygulamayı kapatan kişiler artık mesajlarda çevrimiçi görünmüyor; transfer fişi reddederken / onaylarken çıkan hata giderildi.
+
+- iPhone'da uygulamayı kapatan kişi mesaj listesinde ve sohbette **çevrimiçi** kalıyordu; artık en geç 2,5 dakikada çevrimdışı ve doğru **son görülme** saatiyle görünür
+- Sohbet başlığı ve mesaj listesi aynı bilgiyi gösterir
+- Transfer fişi reddedilirken / onaylanırken işlem başarılı olsa da çıkan **"İşlem tamamlanamadı"** hatası düzeltildi
+- iPhone: zorunlu güncelleme ekranındaki **TestFlight'ta Güncelle** düğmesi TestFlight'ı açar
+
 ## 2026-10-02 | Yenilik | Ürünler Arası Transfer
 
 Mağazanızın deposunda bir ürünün adedini başka bir renk/bedene ya da başka bir modele onaylı bir akışla aktarabilirsiniz; envanter onaylanınca anında güncellenir.
