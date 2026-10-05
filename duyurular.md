@@ -14,6 +14,47 @@ Nasıl yazılır:
 - En yeni tarih en üstte listelenir; aynı tarihliler bu dosyadaki sırayla.
 - Yeni duyurular kullanıcıya "YENİ" etiketiyle gösterilir.
 
+## 2026-10-05 | Yenilik | Trendyol Bayi Satış
+
+Ürünleri art arda okutup SORBET'e bayi satış irsaliyesi kesebilir, SORBET onayından faturaya ve e-faturaya kadar her adımı tek ekrandan takip edebilirsiniz.
+
+### İrsaliye
+- **Bilgi İşlem → Trendyol Bayi Satış**'ı açın; kamera açık kalır, okuttuğunuz her ürün altta anında listelenir
+- Aynı üründen birden fazla için barkodu her ürün için ayrı okutun; el terminaliyle de okutabilirsiniz
+- Depodaki stoktan fazlası okutulamaz; araç / sürücü seçilir, **İrsaliye Oluştur** ile irsaliye ve e-irsaliye kesilir
+
+### Adımlar (sağ üstteki İrsaliyeler)
+1. **SORBET Onayı:** gelen ürün SORBET'te onaylanır
+2. **Fatura:** onaylanan irsaliyeler birikir; seçtikleriniz ya da **Tümünü Faturala** ile hepsi tek faturada kesilir
+3. **E-Fatura:** fatura kesilince sorulur, sonra da gönderilebilir
+4. **SORBET Alış:** e-fatura SORBET'in gelen kutusuna düşünce alış faturası olarak alınır
+
+> Faturada fiyat, irsaliyenin kesildiği günkü fiyattır. Her adımı yapan kişi kayda geçer.
+
+## 2026-10-05 | Yenilik | Trendyol İade ve İade Faturaları
+
+Trendyol iadeleri kargo barkodu okutularak tek adımda alınıyor; iade edilen ürünler toplu faturalanıyor.
+
+- **Bilgi İşlem → Trendyol İade:** kargo barkodunu okutun; Trendyol onayı ve Nebim iadesi birlikte yapılır
+- Uygun olmayan ürün **Reddet** ile sebep, açıklama ve fotoğrafla reddedilir
+- **İade Faturaları** (üstteki fatura simgesi): Fatura → Etiket → E-Fatura → Tena sırasıyla ilerler; farklı faturalara bağlı ürünler tek faturada kesilebilir
+
+## 2026-10-05 | Duyuru | Sunucu ekranları için "API Erişimi" yetkisi
+
+Stok, fiyat, kampanya, talepler, transfer, raporlar ve Bilgi İşlem ekranları artık "API Erişimi" yetkisi istiyor.
+
+- Yetkiniz yoksa ekran açılmaz, **API Erişim Yetkiniz Yok** uyarısı çıkar
+- Yetkiyi yöneticiniz **Yönetim → Yetkilendirme**'den verir; verildiği an ekranlar açılır
+
+## 2026-10-05 | Düzeltme | Sunucu uyarısı ve hata düzeltmeleri
+
+Sunucuya ulaşılamadığında uyarı artık beklemeden çıkıyor; hata durumunda ekranlar çökmüyor.
+
+- Sunucu kapalıyken **Sunucu Bağlantısı Yok** uyarısı anında çıkar, ekran asılı kalmaz
+- Stok, fiyat ve kampanya ekranları hata aldığında çökmüyor; anlaşılır Türkçe mesaj gösteriliyor
+- Fotoğraf ekranında barkod alanı açılışta hazır
+- Transfer talepleri sayfalı listelenir; depo listesinde kendi deponuz en üstte
+
 ## 2026-10-02 | Düzeltme | Çevrimiçi durumu ve transfer onayı düzeltmeleri
 
 Uygulamayı kapatan kişiler artık mesajlarda çevrimiçi görünmüyor; transfer fişi reddederken / onaylarken çıkan hata giderildi.
