@@ -14,6 +14,57 @@ Nasıl yazılır:
 - En yeni tarih en üstte listelenir; aynı tarihliler bu dosyadaki sırayla.
 - Yeni duyurular kullanıcıya "YENİ" etiketiyle gösterilir.
 
+## 2026-10-06 | Yenilik | Mağaza Transfer İrsaliyesi
+
+Mağazanızdan başka bir mağazaya ya da merkeze iade olarak transfer irsaliyesi ve e-irsaliye kesebilirsiniz.
+
+### İrsaliye kesme
+- **Mağaza → Mağaza Parametreleri → Mağaza Transfer İrsaliyesi**'ni açın; gönderen her zaman bağlı olduğunuz depo / mağazadır
+- Sırayla seçin: **araç / sürücü** → **gönderilecek mağaza** → ürünleri okutun
+- Kendi mağazanız listede yer almaz; İnternet Mağaza seçilemez
+- Stok ve ürün izni Nebim kurallarıyla kontrol edilir; mağazada stok eksiye düşecekse uyarı verilir
+- **İrsaliye Kes** ile Nebim'de irsaliye ve e-irsaliye kesilir, e-irsaliye önizlemesi açılır; ekran yeni işlem için baştan başlar
+
+### Merkeze iade
+- Gönderilecek yer olarak **Merkez (iade)**'yi seçin, ardından **merkez deposunu** seçin (Merkez ANA, DEFO …)
+- İrsaliye merkeze iade olarak kesilir; ürünler merkez kabul edince deposuna girer
+
+### Kesilen irsaliyeler (sağ üstteki simge)
+- Kestiğiniz irsaliyeler listelenir; **Gidilen yer** ile mağazaya ya da merkez deposuna göre süzün
+- Her irsaliyede **e-İrsaliyeyi Görüntüle / Yazdır**
+
+> Ekranı görmek için "Mağaza Transfer İrsaliyesi" yetkisi gerekir; yöneticiniz Yönetim → Yetkilendirme'den verir.
+
+## 2026-10-06 | Yenilik | e-İrsaliye önizleme ve yazdırma
+
+Kesilen e-irsaliyeyi resmi formuyla (GİB amblemi, QR kod) görüntüleyip yazdırabilirsiniz.
+
+- Telefon ve tablette, iPhone ve Android'de aynı görünür
+- **Merkez Ofis:** irsaliye yazıcısı seçili ve kilitli gelir, **Yazıcıya Bas** ile basılır
+- **Diğer ofisler:** **Yazdır** ile cihazın yazdırma penceresinden ağdaki yazıcınızı seçin; **Paylaş** ile de gönderebilirsiniz
+- Basılınca önizleme kapanır
+
+## 2026-10-06 | İyileştirme | Birden fazla ürün okutma: Barkod Okuyucu ya da Kamera
+
+Ürün okutulan ekranlarda "Birden fazla ürün okut" açılınca nasıl okutacağınızı seçersiniz.
+
+- **Barkod Okuyucu:** barkod alanı hep hazır kalır, okuttuklarınız sırayla listeye eklenir
+- **Kamera:** kamera açık kalır, ürünleri art arda okutursunuz
+- Kapalıyken kamera tek ürün okutup kapanır
+- Trendyol Bayi Satış, Mağaza Transfer İrsaliyesi, Tedarikçi Ayırma ve Tedarikçi Bilgisi ekranlarında aynı
+- Stok, Fiyat ve Kampanya ekranlarında barkod alanı açılışta hazır
+
+## 2026-10-06 | Duyuru | Yazıcılar: Merkez Ofis ve mağazalar
+
+Etiket ve e-irsaliye yazdırmada yazıcı, bulunduğunuz ofise göre gelir.
+
+- **Merkez Ofis:** etiket şablonunun ve e-irsaliyenin yazıcısı seçili ve kilitli gelir
+- **Mağazalar:** **Yazdır** cihazın yazdırma penceresini açar; ağdaki yazıcınızı oradan seçin
+
+## 2026-10-06 | Düzeltme | Talepler ekranında onay
+
+Talep onaylanırken yeni bir talep gelirse işlem artık yarıda kalmıyor; onay tamamlanır, yeni talep listeye eklenir.
+
 ## 2026-10-05 | Yenilik | Trendyol Bayi Satış
 
 Ürünleri art arda okutup SORBET'e bayi satış irsaliyesi kesebilir, SORBET onayından faturaya ve e-faturaya kadar her adımı tek ekrandan takip edebilirsiniz.
