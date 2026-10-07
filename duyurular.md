@@ -14,6 +14,69 @@ Nasıl yazılır:
 - En yeni tarih en üstte listelenir; aynı tarihliler bu dosyadaki sırayla.
 - Yeni duyurular kullanıcıya "YENİ" etiketiyle gösterilir.
 
+## 2026-10-07 | Yenilik | Etiket sepeti
+
+Farklı ürünlerin etiketlerini sepette biriktirip hepsini tek seferde basabilirsiniz.
+
+### Sepete ekleme
+- Sepet boşken **Etiket**'e basınca sorulur: **Tekli Etiket** hemen yazdırır, **Toplu Etiket** sepete ekler
+- Sepette ürün varken her Etiket doğrudan sepete gider, bir daha sorulmaz
+- Tek renk/bedende adet sorulur; **Envanter kadar** ile mağaza stoğu kadar eklenir
+- Ürünün tümüne "Etiket Yazdır" denirse mağazada stoğu olan renk/bedenler stok kadar eklenir
+- Aynı ürün tekrar eklenirse adetler toplanır
+
+### Sepet
+- **Stok Durumu** başlığında, yenile düğmesinin yanındaki sepet simgesinden açılır (üzerinde ürün sayısı)
+- Ürünler gruplu; renk adı, beden ve **− adet +** ile adet değiştirilir
+- Kutucuğu kaldırılan kalem bu baskıya girmez ama sepette kalır; çöp kutusu onay sorarak siler
+- Sıra: önce **Etiket Tipi**, sonra **yazıcı** (etiket tipine bağlı, otomatik gelir), **Önizle**, **Yazıcıya Bas**
+- Basılan etiketler sepetten çıkar, basılmayanlar kalır
+
+> Sepet kişiye özeldir ve telefonunuzda saklanır.
+
+## 2026-10-07 | Yenilik | Stok Durumu: onaylanmamış transferler
+
+Mağazanıza gönderilmiş ama henüz onaylanmamış transferleri envantere katarak görebilirsiniz.
+
+- Depolar bölümündeki **Onaylanmamış transferler dahil edilerek gösterilsin** seçeneğini açın; yanlışlıkla dokunmaya karşı onay sorulur
+- **Yeşil:** mevcut envanter · **Sarı:** transfer dahil toplam (yanında yoldaki adet)
+- Ürün Kodu ekranı ve Diğer Varyantlar'da aynı seçenek ve görünüm
+
+## 2026-10-07 | İyileştirme | Okutulanlarda adet ve silme
+
+Trendyol Bayi Satış ve Mağaza Transfer İrsaliyesi'nde okuttuğunuz ürünleri listeden düzenleyebilirsiniz.
+
+- **×adet** rozetine dokunun: adet güncel envantere göre sınırlanır
+- Silme aşamalıdır: **Vazgeç / 1 Adet Çıkar / Tümünü Sil**
+
+## 2026-10-07 | İyileştirme | Toplu onay
+
+Bayi Satış İrsaliyeleri (SORBET onayı, fatura) ve Talepler'de birden fazla kaydı tek seferde onaylayabilirsiniz.
+
+- Kartın üstündeki **Toplu onaya ekle** ile seçin ya da **Tümünü seç**
+- İşlem sırasında ilerleme görünür, **Durdur** ile durdurulabilir; sonunda hangisinin onaylandığı, hangisinin hata verdiği listelenir
+- Talep sahiplerine bildirim, tek tek onaydaki gibi gider
+
+## 2026-10-07 | İyileştirme | Okutma sesleri ve uyarılar
+
+Barkod okutmada ses ve uyarılar tüm ekranlarda aynı kurala bağlandı.
+
+- Veri geldi → başarılı sesi
+- Yanlış / tanımsız barkod → barkod hatası sesi ve **Barkod Hatası** penceresi
+- Ürün yok ya da stok yetersiz → hata sesi ve **Ürün Eklenemedi** penceresi
+- Çift ses çalma giderildi; kamerada ses, veri gelince aynı anda çalar
+
+## 2026-10-07 | İyileştirme | Ekran düzeni ve mesajlar
+
+- **Mağaza:** Mağaza Parametreleri (Stok Durumu, Fiyat Sorgula, Kampanya Sorgula) ile Transfer İşlemleri (Mağaza Transfer İrsaliyesi, Ürün Transferi) ayrıldı
+- **Talepler** Bilgi İşlem Destek İşlemleri'ne taşındı; sıra: Trendyol Bayi Satış, Trendyol İade, Talepler, Tedarikçi Ayırma, Tedarikçi Bilgisi, Fotoğraf
+- **Mesajlar ve Sistem Bildirimleri:** okunmuş mesajlarla yeniler arasında "n yeni mesaj" çizgisi
+- Etiket önizleme daha hızlı açılır
+
+## 2026-10-07 | Düzeltme | Diğer Varyantlar
+
+Diğer Varyantlar paneli bazen boş açılıyordu, düzeltildi. Panel artık etiket paneliyle aynı görünümde.
+
 ## 2026-10-06 | Yenilik | Mağaza Transfer İrsaliyesi
 
 Mağazanızdan başka bir mağazaya ya da merkeze iade olarak transfer irsaliyesi ve e-irsaliye kesebilirsiniz.
